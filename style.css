@@ -1,4 +1,7 @@
-
+body {
+    font-size: 16px;
+    font-family: inherit;
+}
 
 .logo {
 margin: auto;
@@ -28,13 +31,18 @@ width: 320px;
     margin-right: 2px;
     margin-left: 2px;
     background-color: rgb(45, 211, 211);
-    float: left;   
+    float: left; 
 }
 
 .box3 {  text-align: center;
     width: 600px;
     height: 80px;
     background-color: rgb(45, 211, 211);
-    float: left;  
+    float: left; 
+}
 
+.clear {
+    text-align: center;
+    clear: both;
+    padding: 5px;
 }
